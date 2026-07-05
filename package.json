@@ -1,0 +1,29 @@
+{
+  "name": "azure-speech-pulse",
+  "version": "1.0.0",
+  "description": "Speech AI Studio · Azure AI Speech Studio (Project 3) with real-time Speech-to-Text continuous transcription, Neural Text-to-Speech voice generation, and secure lightweight Node.js backend proxy.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "azure",
+    "speech-to-text",
+    "text-to-speech",
+    "cognitive-services",
+    "speech-sdk",
+    "ai",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.41.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0"
+  }
+}
