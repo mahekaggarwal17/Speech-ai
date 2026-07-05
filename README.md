@@ -1,29 +1,41 @@
-🎙️ Speech AI Studio
-An interactive web application built using Microsoft Azure AI Speech Services that demonstrates Speech-to-Text (STT) and Text-to-Speech (TTS) capabilities through a modern browser interface.
-This project showcases real-time speech recognition, neural voice synthesis, configurable voice settings, and secure Azure API integration using a lightweight Node.js backend.
+# 🎙️ Speech AI Studio
 
-🚀 Features
-🎤 Real-time Speech-to-Text transcription
-🔊 Neural Text-to-Speech synthesis
-🌍 Multiple language support
-🎙️ Azure Neural Voice selection
-⚙️ Adjustable speech rate and pitch
-🔒 Secure Azure credentials using .env
-📊 Live telemetry dashboard
-💻 Responsive modern UI
-🌐 Local backend proxy using Express.js
+Speech AI Studio is a modern web application built with **Microsoft Azure AI Speech Services** that demonstrates both **Speech-to-Text (STT)** and **Text-to-Speech (TTS)** capabilities. The application provides an interactive browser-based interface for converting spoken words into text and generating natural-sounding speech using Azure Neural Voices.
 
-🛠️ Technologies Used
-HTML5
-CSS3
-JavaScript (ES6)
-Node.js
-Express.js
-Microsoft Azure AI Speech Service
-Azure Speech SDK
-Dotenv
+The project also showcases secure Azure API integration through a lightweight **Node.js** and **Express.js** backend, making it an excellent learning project for developers exploring cloud-based AI services.
 
-📂 Project Structure
+---
+
+## 🚀 Features
+
+* 🎤 Real-time Speech-to-Text transcription
+* 🔊 High-quality Neural Text-to-Speech synthesis
+* 🌍 Support for multiple languages
+* 🎙️ Azure Neural Voice selection
+* ⚙️ Adjustable speech rate and pitch
+* 🔒 Secure credential management using `.env`
+* 📊 Live telemetry and session dashboard
+* 💻 Responsive and user-friendly interface
+* 🌐 Express.js backend acting as a secure Azure API proxy
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Node.js
+* Express.js
+* Microsoft Azure AI Speech Service
+* Azure Speech SDK
+* Dotenv
+
+---
+
+## 📂 Project Structure
+
+```text
 speech-ai-project/
 │
 ├── index.html
@@ -35,69 +47,119 @@ speech-ai-project/
 ├── .env.example
 ├── README.md
 └── assets/
+```
 
+---
 
+## ⚙️ Installation
 
-⚙️ Installation
-Clone the repository
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/mahekaggarwal17/speech-ai-project.git
-Go to the project directory
+```
+
+### 2. Navigate to the project folder
+
+```bash
 cd speech-ai-project
-Install dependencies
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-Create a .env file
+```
+
+### 4. Create a `.env` file
+
+```env
 AZURE_SPEECH_KEY=YOUR_AZURE_SPEECH_KEY
 AZURE_SPEECH_REGION=YOUR_REGION
 PORT=3000
-Start the application
+```
+
+### 5. Start the application
+
+```bash
 npm start
-Open your browser
+```
+
+### 6. Open the application
+
+```text
 http://localhost:3000
+```
 
+---
 
+## 📸 Application Modules
 
-📸 Application Modules
-Speech Recognition
-Live microphone transcription
-Continuous recognition
-Multiple language support
-Speech Synthesis
-Azure Neural Voices
-Adjustable speaking rate
-Adjustable pitch
-SSML generation
-Dashboard
-Service status
-Recognition metrics
-Voice information
-Session statistics
+### 🎤 Speech Recognition
 
-🔐 Security
-Azure API credentials are never stored inside the frontend.
-Sensitive information is securely managed using:
-.env
-.gitignore
-Express backend proxy
+* Live microphone transcription
+* Continuous speech recognition
+* Multiple language support
 
-📚 Azure Services Used
-Azure AI Speech
-Speech-to-Text
-Text-to-Speech
-Azure Speech SDK
+### 🔊 Speech Synthesis
 
-🎯 Learning Outcomes
+* Azure Neural Voices
+* Adjustable speaking rate
+* Adjustable voice pitch
+* SSML-based speech generation
+
+### 📊 Dashboard
+
+* Service status monitoring
+* Recognition metrics
+* Voice information
+* Session statistics
+
+---
+
+## 🔐 Security
+
+To protect sensitive information, Azure credentials are **never exposed on the frontend**.
+
+Security is implemented using:
+
+* `.env` configuration
+* `.gitignore`
+* Express.js backend proxy
+
+---
+
+## ☁️ Azure Services Used
+
+* Azure AI Speech
+
+  * Speech-to-Text
+  * Text-to-Speech
+* Azure Speech SDK
+
+---
+
+## 🎯 Learning Outcomes
+
 This project demonstrates:
-Azure AI Speech integration
-Secure API management
-Node.js backend development
-REST API communication
-Browser Speech SDK usage
-Responsive UI development
 
-👩‍💻 Author
-Mehek Aggarwal
+* Integration with Microsoft Azure AI Speech Services
+* Secure API key management
+* Backend development using Node.js and Express.js
+* REST API communication
+* Browser-based Speech SDK implementation
+* Responsive web application development
+
+---
+
+## 👩‍💻 Author
+
+**Mehek Aggarwal**
+
 GitHub: https://github.com/mahekaggarwal17
 
-📄 License
-This project is developed for educational and learning purposes.
+---
 
+## 📄 License
+
+This project is intended for **educational and learning purposes** and is provided as a demonstration of Microsoft Azure AI Speech Services integration.
